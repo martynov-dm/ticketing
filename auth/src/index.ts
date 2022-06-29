@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
-import {DatabaseConnectionError} from "./errors/database-connection-error";
+import { DatabaseConnectionError } from "@ticketing-dm/common";
+
 import {app} from "./app";
 
 const start = async () => {
