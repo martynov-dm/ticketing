@@ -21,6 +21,11 @@ spec:
                   secretKeyRef:
                     name: secrets
                     key: JWT_KEY
+              - name: TICKETS_MONGO_URI
+                valueFrom:
+                  secretKeyRef:
+                    name: secrets
+                    key: TICKETS_MONGO_URI
 ---
 apiVersion: v1
 kind: Service
