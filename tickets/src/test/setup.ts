@@ -8,7 +8,7 @@ declare global {
     var signin: () => string[];
 }
 
-jest.setTimeout(50000);
+jest.setTimeout(100000);
 
 let mongo: any
 beforeAll(async () => {
