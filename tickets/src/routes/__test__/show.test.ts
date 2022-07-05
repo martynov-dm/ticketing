@@ -27,7 +27,6 @@ it('returns the ticket if it is found', async function () {
         .send()
         .expect(200)
 
-    console.log(ticketResponse.body)
     expect(ticketResponse.body.title).toEqual(title)
     expect(ticketResponse.body.price).toEqual(price)
 });
